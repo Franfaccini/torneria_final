@@ -1,0 +1,32 @@
+$titulos:40px;
+$subtitulos:30px;
+$texto:20px;
+
+
+.encabezadoFoo--fsize{
+    font-size: $titulos;
+}
+.parrafoIndex--fsize{
+    font-size: 17px;
+}
+.encabezado--fsize{
+    font-size: $subtitulos;
+}
+.encabezadoFoo--fsize{
+    border-radius: 2px;
+}
+.navbar-brand{
+    font-size: $titulos;
+}
+.bg-light{
+    border-radius: 0px};
+
+.logoFooPoleas{
+    font-size: 40px;
+}
+.logoFooCorreas{
+    font-size: 40px;
+}
+.form-control{
+    text-align: center;
+}

@@ -1,0 +1,106 @@
+$amarillo: yellow;
+$negro:black;
+$fondoresaltado: red;
+$fondo:rgba(255, 255, 0, 0.705);
+$blanco: white;
+
+
+@media only screen and (min-width:992px){}
+.encabezadoFoo--color{
+    color: $amarillo ;
+}
+.encabezadoFoo a{
+    color: yellow;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    background-color: #343a40;
+}
+.bg-light{
+    background-color :#343a40 !important;
+}
+
+    .navbar-toggler{
+        background-color: white;
+    }
+
+    .navbar-light .navbar-brand{
+        color: yellow;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: white;
+    }
+    .card-title{
+        text-align: center;
+    }
+
+
+    .encabezado--color{
+        color: black;
+        background-color: rgba(255, 255, 0, 0.863);
+    }
+
+
+
+    .card{
+        background-color: rgba(255, 255, 0, 0.829);
+    }
+    .fondocolor{
+        background-color:  #ffffff;
+    } 
+
+    .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+        color: yellow;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: yellow;
+    }
+
+    .list-group-item.active{
+        background-color: rgba(255, 255, 0, 0.884);
+        border-color: yellow;
+        color: black;
+    }
+
+    .logoFooPoleas{
+        color: yellow;
+    }
+    .fooback{
+        background-color: black;
+    }
+    footer{
+        background-color: #343a40;
+    }
+    .tituloPoleas{
+        background-color: rgba(255, 255, 0, 0.877);
+    }
+    .logoFooContacto{
+        color: yellow;
+        font-size: 40px;
+    }
+    .encabezadoContacto{
+        background-color: yellow;
+    }
+    .encabezadoEng{
+        background-color: yellow;
+    }
+    .logoFooEngranajes{
+        color: yellow;
+        background-color: black;
+        font-size: 40px;
+    }
+    .subtitulo{
+        background-color: yellow;
+    }
+    .parrafoIndex--color{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.664);
+    }
+
+
+

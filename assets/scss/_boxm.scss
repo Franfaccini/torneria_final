@@ -1,0 +1,121 @@
+
+
+.subtitulo{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.encabezado{
+    margin: 60px;
+    text-align: center;
+    border-radius: 20px
+}
+
+.parrafoIndex{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.card :hover{
+    transition: all 1s;
+    transform: translateY(-10px);
+}
+
+.navbar-nav :hover{
+    transition:all 1s;
+    transform: translateY(-7px);
+}
+
+.card{
+    text-align: center;
+}
+.encabezadoFoo{
+    margin: 30px;
+}
+.list-group-item-action{
+    text-align: center;
+}
+.encabezadoPoleas{
+    text-align: center;
+    margin: 30px;
+}
+.logoFooPoleas{
+    text-align: start;
+    margin-top: 20px;
+}
+.parrafoPoleas{
+    text-align: center;
+}
+.tituloPoleas{
+    margin-top: 130px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.encabezadoEng{
+    margin-top: 130px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.logoFooCorreas{
+    color: yellow;
+    background-color: black;
+    margin-top: 20px;
+}
+.encabezadoCorreas{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.parrafoCorreas{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tituloCorreas{
+    margin-top: 130px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 20px;
+}
+.encabezadoFoo a{
+    text-decoration: none;
+}
+.encabezadoContacto{
+
+    margin-top: 150px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.parallax{
+    background-image: url(../img/engranajes-3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    height: 400px;
+}
+.redes{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    color: yellow;
+    position: relative;
+    padding-left: 15px;
+}
+.redes i{
+    padding: 5px;
+    margin: 5px;
+}
+.redes li a{
+    text-decoration: none;
+}
+.copy{
+    position: relative;
+    margin-top: 20px;
+}

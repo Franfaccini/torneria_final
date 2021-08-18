@@ -1,0 +1,49 @@
+@import "colores";
+@import "tamanios";
+@import "boxm";
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ESCRITORIO*/
+
+@media only screen and (min-width:992px){
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
+    }
+
+    
+.rowprueba{
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: center;
+}
+
+   .encabezadoFoo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 20px;
+   }
+
+    .img-fluid{
+        background-image: url(../img/engranajes-3.jpg);
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+}
+
+
+/* MOBILE */
+ @media only screen and (min-width:0px) and (max-width:767px){
+    .rowprueba{
+        justify-content: center;
+    
+    }
+ }

@@ -47,73 +47,84 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-xs-12">
-         <form>
-           <div class="form-row">
-             <div class="col">
-               <input type="text" class="form-control" placeholder="Nombre">
-             </div>
-             <div class="col">
-               <input type="text" class="form-control" placeholder="Apellido">
-             </div>
-           </div>
-         </form>
-        </div>
-      </div>
-    </div>
-    <divc class="container">
-      <div class="col">
-        <div class="col-lg-12 col-xs-12">
-        <form>
-          <div class="form-group">
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Numero telefonico">
-          </div>
-        </form>
-        </div>
-      </div>
-    </div>
-   <div class="container">
-     <div class="row">
-       <div class="col-lg-12 col-xs-12">
-        <form>
-          <div class="form-group">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-          </div>
-        </form>
-       </div>
-     </div>
-   </div>
-   <div class="container">
-     <div class="row">
-       <div class="col-lg-12 col-xs-12">
-      <form">
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Dejanos tu consulta</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </form>
 
-       </div>
-     </div>
-   </div>
-   <div class="container">
-     <div class="row">
-       <div class="col-lg-12 col-xs-12">
-        <button type="submit">Enviar</button>
-        <input type="reset" value="Limpiar formulario">
 
-       </div>
-     </div>
-   </div><br>
+
+
+
+
+
+    <section class="page-section" id="contact">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase">CONTACTO</h2>
+              <h3 class="section-subheading text-muted">Complete sus datos y su consulta.</h3>
+          </div>
+          <!-- * * * * * * * * * * * * * * *-->
+          <!-- * * SB Forms Contact Form * *-->
+          <!-- * * * * * * * * * * * * * * *-->
+          <!-- This form is pre-integrated with SB Forms.-->
+          <!-- To make this form functional, sign up at-->
+          <!-- https://startbootstrap.com/solution/contact-forms-->
+          <!-- to get an API token!-->
+          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <div class="row align-items-stretch mb-5">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <!-- Name input-->
+                          <input class="form-control" id="name" type="text" placeholder="Nombre *" data-sb-validations="required" />
+                          <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                      </div>
+                      <div class="form-group">
+                          <!-- Email address input-->
+                          <input class="form-control" id="email" type="email" placeholder="Email *" data-sb-validations="required,email" />
+                          <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                          <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                      </div>
+                      <div class="form-group mb-md-0">
+                          <!-- Phone number input-->
+                          <input class="form-control" id="phone" type="tel" placeholder="Telefono *" data-sb-validations="required" />
+                          <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group form-group-textarea mb-md-0">
+                          <!-- Message input-->
+                          <textarea class="form-control" id="message" placeholder="Su Mensaje *" data-sb-validations="required"></textarea>
+                          <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Submit success message-->
+              <!---->
+              <!-- This is what your users will see when the form-->
+              <!-- has successfully submitted-->
+              <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center text-white mb-3">
+                      <div class="fw-bolder">Form submission successful!</div>
+                      To activate this form, sign up at
+                      <br />
+                      <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                  </div>
+              </div>
+              <!-- Submit error message-->
+              <!---->
+              <!-- This is what your users will see when there is-->
+              <!-- an error submitting the form-->
+              <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+              <!-- Submit Button-->
+              <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar</button></div>
+          </form>
+      </div>
+  </section>
+
 
 <section>
   
 </section>
 
-
-   <div class="container">
+<br>
+   <div class="container-fluid">
      <div class="row">
        <div class="col-lg-12 col-xs-12">
         <iframe class="iframeMapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.7647127384503!2d-58.528384885439294!3d-34.66064456801802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc8f5da2947df%3A0x4c354875a28168f5!2sPaso%202780%2C%20B1752BWR%20Lomas%20del%20Mirador%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1628006456097!5m2!1ses-419!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -132,8 +143,8 @@
             <h3 class="encabezadoFoo encabezadoFoo--color encabezadoFoo--fsize"><a href="index.html"> SMP</a></h3>
             <ul class="redes">
               <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-              <li><i class="fab fa-facebook"></i><a href=""></a></li>
-              <li><i class="fab fa-twitter-square"></i><a href=""></a></li>
+              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> </a></li>
+              <li><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i> </a></li>
             </ul>
             <h4 class="copy">Copyright Francisco Faccini 2021</h4>
         </footer>

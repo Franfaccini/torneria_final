@@ -2,7 +2,7 @@
 
 .subtitulo{
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 3px;
 }
 .encabezado{
@@ -18,19 +18,13 @@
     margin-bottom: 30px;
     border-radius: 8px;
 }
-.card :hover{
-    transition: all 1s;
-    transform: translateY(-10px);
-}
 
 .navbar-nav :hover{
     transition:all 1s;
     transform: translateY(-7px);
 }
 
-.card{
-    text-align: center;
-}
+
 .encabezadoFoo{
     margin: 30px;
 }
@@ -85,10 +79,10 @@
 }
 .encabezadoContacto{
 
-    margin-top: 150px;
+    margin-top: 8px;
     margin-bottom: 40px;
     text-align: center;
-    border-radius: 20px;
+
 
 }
 .parallax{
@@ -116,6 +110,23 @@
     text-decoration: none;
 }
 .copy{
+    color: black;
     position: relative;
     margin-top: 20px;
+}
+.tituloCorreas{
+    color: black;
+}
+.parrafoCorreas{
+    color: black;
+}
+.encabezadoCorreas{
+    color: black;
+}
+.encabezadoEng{
+    color: black;
+}
+.parrafoEngranajes{
+    color: black;
+    text-align: center;
 }

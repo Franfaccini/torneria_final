@@ -684,3 +684,10 @@ a, a:hover {
 
 .card {
   background-color: rgba(128, 128, 128, 0.678); }
+
+.listadoFoo li {
+  list-style-type: none; }
+
+.listadoFoo {
+  text-align: center;
+  margin-right: 20px; }
